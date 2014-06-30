@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="preference_screen" >
+
+    <Preference
+        android:key="copyright_key"
+        android:summary="@string/copyright_string"
+        android:title="Headphone Launcher" />
+
+    <CheckBoxPreference
+        android:key="enable_boot"
+        android:summary="Start activity at boot"
+        android:title="Enable at boot" />
+
+    <Preference
+        android:key="service_start"
+        android:summary="Press to start service"
+        android:title="Start Service" />
+    <Preference
+        android:key="service_stop"
+        android:summary="Press to stop service"
+        android:title="Stop Service" />
+
+    <PreferenceScreen
+        android:summary="Choose your applications"
+        android:title="Plugged in application" >
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_1" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_2" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_3" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_4" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_5" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_6" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_7" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_8" />
+        <com.wasseemb.headphonein.RemovablePreference android:key="shortcut_9" />
+    </PreferenceScreen>
+
+
+</PreferenceScreen>

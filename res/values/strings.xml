@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HeadphoneIn</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_uninstalled">Application not found</string>
+    <string name="invalid_shortcut_position">Invalid position</string>
+    <string name="out_of_range_position">Position out of range (1–8)</string>
+    <string name="pref_shortcut_at">Shortcut %1$s</string>
+    <string name="pref_description_shortcuts">Tap here to select shortcuts</string>
+    <string name="pref_description_shortcut">Tap here to select application</string>
+    <string name="copyright_string">Copyright © 2014 – Wasseem Bazbaz\nView more apps and modules</string>
+    <string name="get_unlocker">Get Unlocker</string>
+    <string name="support_development">Support development and unlock extra features</string>
+    <string name="extra_unlocked">Extra features unlocked</string>
+    <string name="support_thanks">Thank you so much for your support</string>
+
+</resources>
